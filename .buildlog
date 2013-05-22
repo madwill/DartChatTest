@@ -1,0 +1,22 @@
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [26 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [63 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [62 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [218 ms]
+
