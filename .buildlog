@@ -20,3 +20,8 @@ build.dart --machine --full
 
 build.dart finished [218 ms]
 
+---
+build.dart --machine --changed=test\run.sh
+
+build.dart finished [62 ms]
+
