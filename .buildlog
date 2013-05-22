@@ -40,3 +40,23 @@ build.dart --machine --changed=index.html
 
 build.dart finished [63 ms]
 
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [62 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [61 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [65 ms]
+

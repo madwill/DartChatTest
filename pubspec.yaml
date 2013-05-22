@@ -5,4 +5,5 @@ authors:
 dependencies:
   browser: any
   rikulo_ui: any
-  rikulo_uxl: any
+  rikulo_uxl: any  
+  io_2003_tools: any
