@@ -25,3 +25,18 @@ build.dart --machine --changed=test\run.sh
 
 build.dart finished [62 ms]
 
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [85 ms]
+
+---
+build.dart --machine --changed=index.html
+
+build.dart finished [61 ms]
+
+---
+build.dart --machine --changed=index.html
+
+build.dart finished [63 ms]
+
