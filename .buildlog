@@ -60,3 +60,28 @@ build.dart --machine --changed=pubspec.yaml
 
 build.dart finished [65 ms]
 
+---
+build.dart --machine --changed=drone.key
+
+build.dart finished [107 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [91 ms]
+
+---
+build.dart --machine --changed=New Text Document.txt
+
+build.dart finished [107 ms]
+
+---
+build.dart --machine --changed=Procfile --removed=New Text Document.txt
+
+build.dart finished [112 ms]
+
+---
+build.dart --machine --changed=Procfile
+
+build.dart finished [109 ms]
+
