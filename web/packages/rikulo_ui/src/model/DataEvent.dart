@@ -69,25 +69,25 @@ class DataEvents {
   Stream<DataEvent> get structure => _structureEvent.forTarget(_owner);
   /** Identifies the selection of the lists has changed.
    *
-   * It is applicable only if the model supports [SelectionModel].
+   * It is applicable only if the model supports [Selection].
    * The event is an instance of [DataEvent].
    */
   Stream<DataEvent> get select => _selectEvent.forTarget(_owner);
   /** Identified the change of whether the model allows mutiple selection.
    *
-   * It is applicable only if the model supports [SelectionModel].
+   * It is applicable only if the model supports [Selection].
    * The event is an instance of [DataEvent].
    */
   Stream<DataEvent> get multiple => _multipleEvent.forTarget(_owner);
   /** Identifies the list of disabled objects has changed.
    *
-   * It is applicable only if the model supports [DisablesModel].
+   * It is applicable only if the model supports [Disables].
    * The event is an instance of [DataEvent].
    */
   Stream<DataEvent> get disable => _disableEvent.forTarget(_owner);
   /** Identifies the change of the open statuses.
    *
-   * It is applicable only if the model supports [OpensModel].
+   * It is applicable only if the model supports [Opens].
    * The event is an instance of [DataEvent].
    */
   Stream<DataEvent> get open => _openEvent.forTarget(_owner);

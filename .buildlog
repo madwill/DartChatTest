@@ -85,3 +85,436 @@ build.dart --machine --changed=Procfile
 
 build.dart finished [109 ms]
 
+---
+build.dart --machine --changed=server\chat-server.dart --changed=server\file-logger.dart --changed=server\serve...
+
+build.dart finished [64 ms]
+
+---
+build.dart --machine --changed=web\dartchattest.dart.js --changed=web\dartchattest.dart.js.deps --changed=web\d...
+
+build.dart finished [87 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [62 ms]
+
+---
+build.dart --machine --removed=web\dartchattest.css --removed=web\dartchattest.dart --removed=web\dartchattest....
+
+build.dart finished [80 ms]
+
+---
+build.dart --machine --changed=web\app.css --changed=web\app.dart --changed=web\controllers\TodoAppControl.dart...
+
+build.dart finished [144 ms]
+
+---
+build.dart --machine --changed=web\views\app.uxl.dart
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [61 ms]
+
+---
+build.dart --machine --removed=web\app.css --removed=web\app.dart --removed=web\controllers\TodoAppControl.dart...
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=Procfile
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [59 ms]
+
+---
+build.dart --machine --changed=web\app.css --changed=web\app.dart --changed=web\controllers\TodoAppControl.dart...
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [27 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [25 ms]
+
+---
+build.dart --machine --changed=test\run.sh
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [23 ms]
+
+---
+build.dart --machine --changed=assets\base.css --changed=assets\bg.png --changed=assets\original.html
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [22 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [23 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [28 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [26 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [45 ms]
+
+---
+build.dart --machine --changed=index.html
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [46 ms]
+
+---
+build.dart --machine --changed=web\app.dart
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [59 ms]
+
+---
+build.dart --machine --changed=web\app.dart
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [44 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [26 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [26 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=web\app.dart
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [45 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [28 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [47 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [25 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [23 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [22 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [25 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [25 ms]
+
+---
+build.dart --machine --changed=web\app.dart
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [47 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [25 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [23 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [26 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [23 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [45 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [25 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [27 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [23 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [26 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [25 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [24 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build;
+^
+build.dart finished [32 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Dart_Invoke: did not find top-level function 'main'.
+build.dart finished [34 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Dart_Invoke: did not find top-level function 'main'.
+build.dart finished [23 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Dart_Invoke: did not find top-level function 'main'.
+build.dart finished [27 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Dart_Invoke: did not find top-level function 'main'.
+build.dart finished [25 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Dart_Invoke: did not find top-level function 'main'.
+build.dart finished [23 ms]
+
+---
+build.dart --machine --changed=web\app.dart
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build; 
+^
+build.dart finished [54 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/rikulo_uxl/uc.dart'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build; 
+^
+build.dart finished [28 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/William/dart/DartChatTest/packages/args/args.dart'package:rikulo_uxl/uc.dart': Error: line 11 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/William/dart/DartChatTest/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:rikulo_uxl/uc.dart' show build; 
+^
+build.dart finished [28 ms]
+

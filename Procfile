@@ -1,1 +1,1 @@
-web: dart web/dartchattest.dart
+web: dart web/app.dart

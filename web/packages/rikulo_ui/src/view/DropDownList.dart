@@ -80,8 +80,8 @@ class DropDownList<T> extends View {
    */
   void set model(DataModel model) {
     if (model != null) {
-      if (model is! SelectionModel)
-        throw new UIError("SelectionModel required, $model");
+      if (model is! Selection)
+        throw new UIError("Selection required, $model");
       if (model is! ListModel && model is! TreeModel)
         throw new UIError("Only ListModel or TreeModel allowed, not $model");
     }
@@ -96,7 +96,7 @@ class DropDownList<T> extends View {
 
       if (_model != null) {
         _subAll = _model.on.all.listen(_initDataListener());
-        _selectNode.multiple = (_model as SelectionModel).multiple;
+        _selectNode.multiple = (_model as Selection).multiple;
       }
 
       modelRenderer.queue(this); //queue even if _model is null (since cleanup is a bit tricky)
@@ -124,7 +124,7 @@ class DropDownList<T> extends View {
       _dataListener = (event) {
         switch (event.type) {
           case 'multiple':
-            (node as SelectElement).multiple = (_model as SelectionModel).multiple;
+            (node as SelectElement).multiple = (_model as Selection).multiple;
             sendEvent(new ViewEvent("render")); //send it since the look might be changed
             return; //no need to rerender
           case 'select':
@@ -133,7 +133,7 @@ class DropDownList<T> extends View {
             if (_model is ListModel) { //not easy/worth to optimize handling of TreeModel
               final options = (node as SelectElement).options;
               final ListModel<T> model = _model as ListModel;
-              final SelectionModel<T> selmodel = _model as SelectionModel;
+              final Selection<T> selmodel = _model as Selection;
               final bool multiple = selmodel.multiple;
               for (int i = 0, len = model.length; i < len; ++i) {
                 final bool seled = (options[i] as OptionElement).selected = selmodel.isSelected(model[i]);
@@ -190,7 +190,7 @@ class DropDownList<T> extends View {
         final SelectElement n = node;
         selIndex = n.selectedIndex;
         final ListModel model = _model is ListModel ? _model: null;
-        if ((_model as SelectionModel).multiple) {
+        if ((_model as Selection).multiple) {
           for (OptionElement opt in n.options) {
             if (opt.selected) {
               if (model != null) {
@@ -212,7 +212,7 @@ class DropDownList<T> extends View {
 
         _modelSelUpdating = true;
         try {
-          (_model as SelectionModel).selection = selValues;
+          (_model as Selection).selection = selValues;
         } finally {
           _modelSelUpdating = false;
         }
@@ -231,12 +231,12 @@ class DropDownList<T> extends View {
     final renderer = _renderer != null ? _renderer: _defRenderer;
     if (_model is ListModel) {
       final ListModel<T> model = _model;
-      final SelectionModel<T> selmodel = _model as SelectionModel;
+      final Selection<T> selmodel = _model as Selection;
       final multiple = selmodel.multiple;
       for (int i = 0, len = model.length; i < len; ++i) {
         final obj = model[i];
         final selected = selmodel.isSelected(obj);
-        final disabled = _model is DisablesModel && (_model as DisablesModel).isDisabled(obj);
+        final disabled = _model is Disables && (_model as Disables).isDisabled(obj);
         var ret = renderer(new RenderContext(this, _model, obj, selected, disabled, i));
         if (ret == null) ret = "";
         OptionElement opt;
@@ -260,17 +260,17 @@ class DropDownList<T> extends View {
     }
 
     //Update DOM tree
-    if ((_model as SelectionModel).isSelectionEmpty)
+    if ((_model as Selection).isSelectionEmpty)
       (node as SelectElement).selectedIndex = -1;
   }
   void _renderTree(Element parent, TreeModel<T> model,
   Renderer renderer, var parentData, int parentIndex) {
-    final SelectionModel<T> selmodel = _model as SelectionModel;
+    final Selection<T> selmodel = _model as Selection;
     final bool multiple = selmodel.multiple;
     for (int i = 0, len = model.getChildCount(parentData); i < len; ++i) {
       final T child = model.getChild(parentData, i);
       final bool selected = selmodel.isSelected(child);
-      final bool disabled = _model is DisablesModel && (_model as DisablesModel).isDisabled(child);
+      final bool disabled = _model is Disables && (_model as Disables).isDisabled(child);
       var ret = renderer(new RenderContext(this, _model, child, selected, disabled, i));
       if (ret == null) ret = "";
       if (model.isLeaf(child)) {

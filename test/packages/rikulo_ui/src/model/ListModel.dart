@@ -29,7 +29,7 @@ class ListDataEvent<T> extends DataEvent {
  * A data model representing a list of data.
  *
  * Instead of implementing this interface, you can use [DefaultListModel]. It
- * is a concrete class that implements [ListModel], [SelectionModel] and [DisablesModel].
+ * is a concrete class that implements [ListModel], [Selection] and [Disables].
  *
  * Instead of implementing this interface from scratch, it is suggested
  * to extend from [AbstractListModel].
@@ -51,9 +51,9 @@ class Foo extends ListModel {
 }
 /**
  * A skeletal implementation of [ListModel].
- * It handles the data events ([ListDataEvent]) and the selection ([SelectionModel]).
+ * It handles the data events ([ListDataEvent]) and the selection ([Selection]).
  */
-abstract class AbstractListModel<T> extends AbstractDataModel<T>
+abstract class AbstractListModel<T> extends AbstractSelectionModel<T>
 implements ListModel<T> {
   /** Constructor.
    *

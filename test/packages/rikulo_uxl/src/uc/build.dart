@@ -29,18 +29,12 @@ Encoding encoding : Encoding.UTF_8}) {
   }
   final dest = new File(destinationName);
   
-  if (new Path(source.path).canonicalize().toNativePath() ==
-      new Path(dest.path).canonicalize().toNativePath()) {
-    print("Source and destination are the same file, $source");
-    return;
-  }
-
   if (verbose) {
     final int i = dest.path.lastIndexOf('/') + 1;
     print("Compile ${source.path} to ${i > 0 ? dest.path.substring(i) : dest.path}");
   }
   
-  source.readAsString(encoding: encoding).then((text) {
+  source.readAsString(encoding).then((text) {
     final out = dest.openWrite(encoding: encoding);
     try {
       compile(
@@ -57,8 +51,7 @@ Encoding encoding : Encoding.UTF_8}) {
 /** Compile changed UXL files. This method shall be called within build.dart,
  * with new Options().arguments as its [arguments].
  */
-void build(List<String> arguments, {String filenameMapper(String source),
-    Encoding encoding: Encoding.UTF_8}) {
+void build(List<String> arguments) {
   final ArgParser argParser = new ArgParser()
     ..addOption("changed", allowMultiple: true)
     ..addOption("removed", allowMultiple: true)
@@ -72,16 +65,15 @@ void build(List<String> arguments, {String filenameMapper(String source),
   final bool clean = args["clean"];
   
   if (clean) { // clean only
-    Directory.current.list(recursive: true).listen((fse) {
+    new Directory.current().list(recursive: true).listen((fse) {
       if (fse is File && fse.path.endsWith(".uxl.dart"))
         fse.delete();
     });
 
   } else if (removed.isEmpty && changed.isEmpty) { // full build
-    Directory.current.list(recursive: true).listen((fse) {
+    new Directory.current().list(recursive: true).listen((fse) {
       if (fse is File && fse.path.endsWith(".uxl.xml"))
-        compileFile(fse.path, encoding: encoding,
-          destinationName: filenameMapper != null ? filenameMapper(fse.path): null);
+        compileFile(fse.path);
     });
     
   } else {
@@ -94,7 +86,6 @@ void build(List<String> arguments, {String filenameMapper(String source),
     }
     for (String name in changed)
       if (name.endsWith(".uxl.xml"))
-        compileFile(name, encoding: encoding,
-          destinationName: filenameMapper != null ? filenameMapper(name): null);
+        compileFile(name);
   }
 }

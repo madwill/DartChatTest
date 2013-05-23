@@ -3,7 +3,6 @@ description: A sample web application with chat using Rikulo
 authors:
 - William Thivierge <william.thivierge@gmail.com>
 dependencies:
-  browser: any
-  rikulo_ui: any
-  rikulo_uxl: any  
-  io_2003_tools: any
+  browser: any 
+  rikulo_ui: 0.6.7 
+  rikulo_uxl: 0.5.3
