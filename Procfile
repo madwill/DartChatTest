@@ -1,1 +1,2 @@
-web: dart web/app.dart
+web: dart web/chat-client.dart
+web: dart server/chat-server.dart

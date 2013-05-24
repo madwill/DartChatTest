@@ -4,5 +4,3 @@ authors:
 - William Thivierge <william.thivierge@gmail.com>
 dependencies:
   browser: any 
-  rikulo_ui: 0.6.7 
-  rikulo_uxl: 0.5.3
